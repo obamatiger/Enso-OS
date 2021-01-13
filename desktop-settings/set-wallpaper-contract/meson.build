@@ -24,6 +24,6 @@ executable(
         posix_dep,
         meson.get_compiler('c').find_library('m')
     ],
-    install: true,
+    install: false,
     install_dir: contract_path
 )
